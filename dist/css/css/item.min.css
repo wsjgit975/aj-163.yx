@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* #999999：灰色 #333:黑色 #b4a078:hover/font  #eaeaea:线条*/
+#item {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+}
+
+.yx-item-top-navigation {
+  line-height: 1;
+  font-size: 12px;
+  color: #999999;
+  padding: 20px 0;
+}
+
+.yx-item-top-navigation::after {
+  content: "";
+  clear: both;
+  width: 0;
+  height: 0;
+  display: block;
+}
+
+.yx-item-top-navigation li {
+  float: left;
+}
+
+.yx-item-top-navigation a {
+  color: #333;
+}
+
+.top-navigation-split {
+  color: #999;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.yx-item-advertising {
+  position: relative;
+  width: 100%;
+  height: 310px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.item-advertising-img {
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.yx-item-good-list {
+  padding: 0 40px;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.item-good-sort {
+  padding-top: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.category-list,
+.area-list,
+.sorts-list {
+  float: left;
+  max-width: calc(100% - 70px);
+  padding-bottom: 4px;
+}
+
+.area,
+.sorts {
+  border-top: 1px dashed #dedede;
+  padding-top: 20px;
+}
+
+.category::after,
+.area::after,
+.sorts::after {
+  content: "";
+  clear: both;
+  width: 0;
+  height: 0;
+  display: block;
+}
+
+.yx-item-good-list .item-good-sort .name {
+  width: 70px;
+  display: block;
+  float: left;
+}
+
+.active {
+  float: left;
+  display: block;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-bottom: 16px;
+}
+
+.ac-selc {
+  color: #b4a078;
+}
+
+.active:hover {
+  color: #b4a078;
+  text-decoration: none;
+}
+
+.item-good-list {
+  padding-top: 30px;
+}
+
+.item-good-list-header {
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1;
+}
+
+.item-good-list-header .title {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.item-good-list-header .dsc {
+  color: #999999;
+}
+
+.item-lists > .m-product:nth-of-type(4n) {
+  margin: 0;
+}

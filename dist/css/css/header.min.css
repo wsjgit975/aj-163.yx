@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* color:#CC9756 */
+/*  background-color: #CC9756; 主题色*/
+.yx-h-top {
+  background-color: #333333;
+  width: 100%;
+  line-height: 36px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.yx-h-top a {
+  color: #CCCCCC;
+}
+
+.yx-h-top a:hover {
+  color: white;
+}
+
+.notic {
+  height: 36px;
+  padding-left: 36px;
+  background: url("../index-img/d132c2561f18f1149d566a60d05fd9b7.gif") no-repeat;
+  background-position: left;
+  overflow: hidden;
+}
+
+.notic a {
+  display: block;
+  color: #CC9756;
+  text-decoration: underline;
+}
+
+.notic a:hover,
+.nav-top a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-top-con {
+  position: relative;
+}
+
+.nav-top-menu {
+  position: absolute;
+}
+
+.nav-top > a {
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.nav-top > a:last-child::after {
+  border-right: none;
+}
+
+.nav-top > a::after {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  border-right: 1px solid #5c5c5c;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.logo-box {
+  width: 212px;
+  height: 60px;
+  display: block;
+  background: url("../index-img/icon-yxtop-s2904006215-b2811ec0e9.png") no-repeat;
+  background-position: 0 -298px;
+}
+
+.public-nav-title {
+  margin-left: 24px;
+}
+
+.public-nav-title:first-child {
+  margin-left: 0;
+}
+
+.public-nav-title h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.good-list {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -50%;
+}
+
+.public-nav {
+  /* width: 200%; */
+}
+
+.public-nav-good li::after {
+  content: "";
+  clear: both;
+  width: 0;
+  height: 0;
+  display: block;
+}
+
+.public-nav-good ul:last-child {
+  margin-left: 24px;
+}
+
+.public-nav-good ul li {
+  width: 124px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.public-nav-good li img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.public-nav-good li span {
+  font-size: 14px;
+  align-self: center;
+}
+
+.g-item-name:hover {
+  color: #CC9756;
+}
+
+.g-item-name {
+  display: block;
+  float: left;
+  font-size: 14px;
+  line-height: 50px;
+  overflow: hidden;
+}
