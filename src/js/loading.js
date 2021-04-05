@@ -1,0 +1,1 @@
+(function() { window.open('pages/index/index.html') })()

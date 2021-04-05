@@ -24,7 +24,7 @@ function fnCss() {
 }
 //js
 function fnJS() {
-    return src('./src/js/*.js')
+    return src('./src/js/**/*.js')
         .pipe(babel({
             presets: ['@babel/env']
         }))
@@ -47,8 +47,8 @@ function fnPage() {
 //监听
 function fnWatch() {
     watch('./src/index.html', fnCopyIndex);
-    watch('./src/sass/*.scss', fnCss);
-    watch('./src/js/*.js', fnJS);
+    watch('./src/sass/**/*.scss', fnCss);
+    watch('./src/js/**/*.js', fnJS);
     watch('./src/pages/*.n', fnPage);
 }
 //导出任务

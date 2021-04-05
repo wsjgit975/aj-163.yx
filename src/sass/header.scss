@@ -9,14 +9,12 @@
     line-height: 36px;
     height: 36px;
     font-size: 12px;
-}
-
-.yx-h-top a {
-    color: #CCCCCC;
-}
-
-.yx-h-top a:hover {
-    color: white;
+    a {
+        color: #CCCCCC;
+    }
+    a:hover {
+        color: white;
+    }
 }
 
 .notic {
@@ -25,12 +23,11 @@
     background: url('../index-img/d132c2561f18f1149d566a60d05fd9b7.gif') no-repeat;
     background-position: left;
     overflow: hidden;
-}
-
-.notic a {
-    display: block;
-    color: #CC9756;
-    text-decoration: underline;
+    a {
+        display: block;
+        color: #CC9756;
+        text-decoration: underline;
+    }
 }
 
 .notic a:hover,
