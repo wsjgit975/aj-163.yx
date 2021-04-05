@@ -34,9 +34,9 @@ function fnJS() {
 }
 //images
 function fnImg() {
-    return src('./src/img/*')
+    return src('./src/image/**/*')
         .pipe(imagemin())
-        .pipe(dest('./dist/img'));
+        .pipe(dest('./dist/image'));
 }
 //html
 function fnPage() {
@@ -49,7 +49,9 @@ function fnWatch() {
     watch('./src/index.html', fnCopyIndex);
     watch('./src/sass/**/*.scss', fnCss);
     watch('./src/js/**/*.js', fnJS);
-    watch('./src/pages/*.n', fnPage);
+    watch('./src/pages/**/*.html', fnPage);
+    watch('./src/image/**/*', fnImg);
+
 }
 //导出任务
 exports.copyIndex = fnCopyIndex;
